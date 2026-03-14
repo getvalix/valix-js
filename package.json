@@ -1,0 +1,53 @@
+{
+  "name": "@valix/sdk",
+  "version": "1.0.0",
+  "description": "SDK oficial para la API de validación de identificadores fiscales españoles (NIF, NIE, CIF, IBAN)",
+  "keywords": [
+    "nif",
+    "nie",
+    "cif",
+    "iban",
+    "validacion",
+    "fiscal",
+    "españa",
+    "spain",
+    "spanish",
+    "tax",
+    "identifier"
+  ],
+  "homepage": "https://getvalix.es",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getvalix/valix-js"
+  },
+  "license": "MIT",
+  "author": "Valix <hola@getvalix.es>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}
