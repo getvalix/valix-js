@@ -1,6 +1,6 @@
 # valix
 
-SDK oficial de [Valix](https://getvalix.es) para validar identificadores fiscales españoles: **NIF, NIE, CIF e IBAN**.
+SDK oficial de [Valix](https://getvalix.io) para validar identificadores fiscales españoles: **NIF, NIE, CIF e IBAN**.
 
 ```bash
 npm install @valix/sdk
@@ -53,7 +53,7 @@ Requiere **Node.js 18+** (usa `fetch` nativo). Compatible con todos los bundlers
 
 ## Uso con API key
 
-Obtén tu API key en [getvalix.es](https://getvalix.es).
+Obtén tu API key en [getvalix.io](https://getvalix.io).
 
 ### Validación con detección automática de tipo
 
@@ -187,7 +187,7 @@ export async function POST(request: Request) {
 | Pro | 100.000 |
 | Enterprise | 1.000.000 |
 
-Ver precios en [getvalix.es/#precios](https://getvalix.es/#precios).
+Ver precios en [getvalix.io/#precios](https://getvalix.io/#precios).
 
 ---
 

@@ -15,13 +15,13 @@
     "tax",
     "identifier"
   ],
-  "homepage": "https://getvalix.es",
+  "homepage": "https://getvalix.io",
   "repository": {
     "type": "git",
     "url": "https://github.com/getvalix/valix-js"
   },
   "license": "MIT",
-  "author": "Valix <hola@getvalix.es>",
+  "author": "Valix <soporte@getvalix.io>",
   "type": "module",
   "exports": {
     ".": {
